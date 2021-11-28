@@ -2,11 +2,220 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background: #E2DED0;
+	font-family: 'Karla', sans-serif;
 }
+
 
 #home-img {
 	width: 40px;
 	height: 40px;
 }
 
+/*about*/
+
+/*#about {
+	padding: 200px 0;
+}*/
+
+.photo {
+	margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header */
+
+.nav-class {
+	background-color: #333;
+}
+
+.header {
+    background-image: url(../images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+#my-pic {
+	margin-top: 60px;
+	border-radius: 50%;
+	height: 290px;
+	width: 350px;
+}
+
+#intro {
+	padding-top: 150px;
+}
+
+#quote {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 34px;
+	color: #b2b2b2;
+}
+
+#quote + p {
+	text-align: center;
+	color: #b2b2b2;
+	font-size: 16px;
+	padding-bottom: 100px;
+}
+
+div h1 {
+	margin-bottom: 200px ;
+}
+
+/* footer */
+
+footer {
+	background-color: #333;
+}
+
+footer p {
+	padding-top: 10px;
+}
+
+
+#copyright {
+	min-height: 60px;
+  	align-items: center;	
+}
+
+#copyright a {
+	padding-left: 6px;
+}
+
+#socmed-btns {
+	padding: 8px 0;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+
+
+
+#gitlab-btn:hover {
+	color: #171515;
+	text-shadow: 0 0 120px white;
+}
+
+#fb-btn:hover {
+	color: #4267B2;
+}
+
+#linked-btn:hover {
+	color: #0072b1;
+}
+
+#twitter-btn:hover {
+	color: #1DA1F2;
+}
+
+#ig-btn:hover {
+	color: #833AB4;
+}
+
+.zoom {
+	color: white;
+	transition: transform .2s;
+	padding-bottom: 10px;
+}
+
+.zoom:hover {
+	transform: scale(1.5); 
+}
+
+.links {
+	color: #333;
+	text-decoration: none;
+	
+}
+
+.links:hover {
+	color: #333;
+	transform: scale(1.1);
+	transition: transform .1.2s;
+	background-color: white;
+
+}
+
+a:link {
+	
+	text-decoration: none;
+}
+
+/* map */
+#map-id {
+	border:0;
+	width: 600px;
+	height: 450px;
+}
+
+/*cards*/
+
+
+
+.card-box {
+	overflow: hidden;
+}
+
+
+.card-css:hover {
+	transform: scale(1.02);
+	transition: transform 3s;
+
+}
+
+#up-btn {
+	height: 40px;
+	width: 40px;
+}
+
+/* desktop styling */
+
+@media (max-width: 575.98px) {
+	#e-mail {
+		font-size: large;
+	}
+	#intro {
+	padding-top: 20px;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#socmed-btns {
+		font-size: small;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#intro {
+		padding-top: 120px;
+}
+	#work {
+		padding-top: 280px;
+	}
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }
