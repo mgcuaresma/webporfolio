@@ -43,6 +43,59 @@
     justify-content: center;
 }
 
+/* intro */
+
+#h:hover {
+	color: #C6D830;
+}
+
+#i:hover {
+	color: #01949A;
+}
+
+#coma:hover {
+	color: #004369;
+}
+
+#big-i:hover {
+	color: #01DEE6;
+}
+
+#single-q:hover {
+	color: #FF66E9;
+}
+
+#m:hover {
+	color: #FF5412;
+}
+
+#big-m:hover {
+	color: #FBF608;
+}
+
+#another-i:hover {
+	color: #130170;
+}
+
+#g:hover {
+	color: #59981A;
+}
+
+#u:hover {
+	color: #01949A;
+}
+
+#e:hover {
+	color: #CD0046;
+}
+
+#l:hover {
+	color: #53DFD1;
+}
+
+#dot:hover {
+	color: #9E3A14;
+}
 
 #my-pic {
 	margin-top: 60px;
@@ -72,6 +125,12 @@
 
 div h1 {
 	margin-bottom: 200px ;
+}
+
+/* contact */
+
+#e-mail {
+	font-size: 25px;
 }
 
 /* footer */
