@@ -3,7 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Karla', sans-serif;
-
 }
 
 
@@ -127,6 +126,10 @@ div h1 {
 	margin-bottom: 200px ;
 }
 
+#about {
+	padding-top: 50px;
+}
+
 /* contact */
 
 #e-mail {
@@ -248,6 +251,9 @@ a:link {
 	#intro {
 	padding-top: 20px;
 }
+	#quote {
+		padding-top: 120px;
+	}
 }
 
 
