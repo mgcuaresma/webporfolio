@@ -234,12 +234,20 @@ a:link {
 .card-css:hover {
 	transform: scale(1.02);
 	transition: transform 3s;
+	text-align: center;
 
 }
 
 #up-btn {
 	height: 40px;
 	width: 40px;
+}
+
+#disclaimer {
+	color: white;
+	font-size: 10px;
+	margin-bottom: 0;
+	padding-bottom: 5px;
 }
 
 /* desktop styling */
