@@ -234,7 +234,6 @@ a:link {
 .card-css:hover {
 	transform: scale(1.02);
 	transition: transform 3s;
-	text-align: center;
 
 }
 
